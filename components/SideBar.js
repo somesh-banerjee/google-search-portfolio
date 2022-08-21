@@ -19,7 +19,7 @@ const SideBar = () => {
       <ProfileContainer>
         <Image
           style={{ zIndex: "-1" }}
-          src="/assets/Profile.png"
+          src="/assets/somesh.jpg"
           alt="Profile"
           width={320}
           height={320}
@@ -27,11 +27,11 @@ const SideBar = () => {
       </ProfileContainer>
       <About>{sideBarInfo.about}</About>
       <ResumeWrapper
-        href="/assets/Jayesh's Resume.pdf"
+        href="/assets/Somesh's Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
-        {`Jayesh's Resume`}
+        {`Somesh's Resume`}
         <AiOutlineDownload size={19} />
       </ResumeWrapper>
       <hr />

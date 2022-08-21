@@ -19,8 +19,8 @@ import { MdCall } from "react-icons/md";
 
 export const accountDetails = {
   account: "Google Account",
-  name: "Jayesh Choudhary",
-  gmail: "jayesh.choudhary2906@gmail.com",
+  name: "Somesh Banerjee",
+  gmail: "somesh0banerjee@gmail.com",
 };
 
 export const navBar = [
@@ -52,66 +52,56 @@ export const navBar = [
 ];
 
 export const info = {
-  heading: "Jayesh Choudhary: Software Engineer",
-  mobileHeading: "Jayesh Choudhary",
+  heading: "Somesh Banerjee: Web3 Developer",
+  mobileHeading: "Somesh Banerjee",
   description:
-    "Experienced software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success.",
+    "Blockchain Developer with experince in EVM compatible smart contract developemnt and Auditing and connecting it with Web application",
   workExperience: "Work Experience",
-  designation: "Software Engineer",
-  company: "Mindtree Private Limited",
-  timePeriod: "03/2021 - Present",
+  designation: "SDE Intern",
+  company: "Squirrelverse.io",
+  timePeriod: "11/2021 - Present",
   workProjects: [
     {
-      title: "DHRE RealConnect (01/02/2022 - Present) :",
+      title: "Metascreen :",
       description:
-        "Currently, Working on a live project from scratch as a React Js Frontend developer.",
-    },
-    {
-      title: "Informa DNA (01/07/2021 - 31/01/2022) :",
-      description:
-        "Worked with mentioned technologies : React Js, Redux-saga, Redux-toolkit, Sass, Material Ui, axios, ag-grid-react, formik and yup. Mainly worked on the Logical part of frontend like API integration, Implementation of new features, Reusable components, Bug fixes using React Js, JavaScript and Sass.",
+        "Developed Metascreen, India's first NFT as a movie ticket platform https://metascreen.squirrelverse.io/",
     },
   ],
 };
 
 export const sideBarInfo = {
   about:
-    "A Detailed oriented and Committed Engineering Professional with a Bachelor of Engineering in Information Technology. Well-versed in writing code to create systems that are reliable and user-friendly.",
+    "A blockchain and infosec enthusiast. Currently full-time B. Tech student at IIIT Naya Raipur and Intern at Squirrelverse. Experienced in developing fullstack web3 dApps. ",
 
   contactDetails: [
     {
-      title: "jayesh.choudhary2906@gmail.com",
-      href: "mailto:jayesh.choudhary2906@gmail.com",
+      title: "somesh0banerjee@gmail.com",
+      href: "mailto:somesh0banerjee@gmail.com",
       icon: GrMail,
     },
     {
-      title: "8329812727",
+      title: "9876543210",
       href: "",
       icon: BsFillPhoneFill,
     },
     {
       title: "Linkedin Profile",
-      href: "https://www.linkedin.com/in/jayesh-choudhary-72444518b/",
+      href: "https://www.linkedin.com/in/somesh-banerjee/",
       icon: FaLinkedin,
     },
     {
       title: "Github Profile",
-      href: "https://github.com/jayesh2906",
+      href: "https://github.com/somesh-banerjee",
       icon: AiFillGithub,
     },
     {
       title: "Portfolio link",
-      href: "https://jayesh2906.github.io",
+      href: "https://somesh-banerjee.github.io",
       icon: BiLinkAlt,
     },
     {
-      title: "Google Portfolio link",
-      href: "https://google-portfolio.vercel.app/",
-      icon: AiFillGoogleCircle,
-    },
-    {
       title: "Twitter Profile",
-      href: "https://twitter.com/JayeshMERN",
+      href: "https://twitter.com/banerjee_somesh",
       icon: AiFillTwitterCircle,
     },
   ],
@@ -119,112 +109,142 @@ export const sideBarInfo = {
 
 export const accordionData = [
   {
-    question: "What skills does Jayesh have?",
-    answer: `Jayesh is well-versed in Javascript, React Js, Redux, CSS 3, HTML 5, Tailwind, Next Js, React Native, Node Js, Express Js, MongoDb.`,
+    question: "What skills does Somesh have?",
+    answer: `Somesh is well-versed in dApp development in EVM chains like Ethereum and Polygon using Solidity, Hardhat for smart contract and ReactJs for frontend.`,
   },
   {
-    question: "What services does Jayesh provide?",
-    answer: `Jayesh provides fully responsive frontend applications with React Js, Full-stack aplications with MERN and Backend services with Node Js.`,
+    question: "Where is Somesh currently working?",
+    answer: `Somesh is currently a Software Developer at SquirrelVerse .`,
   },
   {
-    question: "Is Jayesh frontend or backend developer?",
-    answer: `Jayesh is a full stack web developer, Experienced in developing full stack MERN apllications.`,
+    question: "Is Somesh a Ethical Hacker?",
+    answer: `Somesh is currently not an Ethical hacker, but he has knowledge of webapp and network pentesting. He has a global rank of 430 in HackTheBox Platform and Top 4% in TryHackMe as of July 2022.`,
   },
   {
-    question: "How much experience does Jayesh have?",
-    answer: `Jayesh has ${calculateExperience()} of experience in software industry.`,
+    question: "Does Somesh have a life outside development?",
+    answer: `Yes, Somesh is also into online gaming like Valorant, CSGO, GTA V, and a massive fan of h̶e̶n̶t̶a̶i̶  anime. His life revolves inside his room, but sometimes he leaves his room to disturb others. Somesh can also make EDIBLE food. But the best thing he can make is fun of you.`,
+  },
+  {
+    question: "How much experience does Somesh have?",
+    answer: `Somesh has ${calculateExperience()} of experience in software industry.`,
   },
 ];
 
 export const projectVideos = [
   {
-    heading: "Mini Laptop Implementation using React Js.",
-    platform: `Linkedin.`,
-    author: `Jayesh Choudhary`,
-    image: `/assets/laptopdesign.png`,
-    date: `1-Mar-2022`,
-    link: `https://www.linkedin.com/feed/update/urn:li:ugcPost:6904281486057373696/`,
-  },
-  {
-    heading: "House Design with pure CSS [2022].",
-    platform: `Linkedin.`,
-    author: `Jayesh Choudhary`,
-    image: `/assets/housedesign.png`,
-    date: `10-Jan-2022`,
-    link: `https://www.linkedin.com/posts/jayesh-choudhary-72444518b_css-animation-perspective3d-activity-6886298154199773184-C74d`,
-  },
-  {
-    heading: "IPL-2022 Web Application using React Js.",
-    platform: `Linkedin.`,
-    author: `Jayesh Choudhary`,
-    image: `/assets/ipl2022.png`,
-    date: `26-Mar-2022`,
-    link: `https://www.linkedin.com/feed/update/urn:li:activity:6913334580070498304/`,
+    heading: "Metaverse Market",
+    platform: `Youtube`,
+    author: `Somesh Banerjee`,
+    image: `/assets/metamarket.png`,
+    date: `16-Aug-2022`,
+    link: `https://youtu.be/4Cdynk6PIhg`,
   },
 ];
 
 export const relatedsearch = [
   {
-    text: "Jayesh's Skills",
+    text: "Somesh's Skills",
     href: "/skills",
   },
   {
-    text: "Jayesh's Projects",
+    text: "Somesh's Projects",
     href: "/projects",
   },
   {
-    text: "Contact Jayesh",
+    text: "Contact Somesh",
     href: "/contact",
   },
   {
-    text: "Jayesh's Location",
+    text: "Somesh's Location",
     href: "/map",
   },
 ];
 
 export const footerData = {
-  name: "JayeshChoudhary",
+  name: "",
   year: new Date().getFullYear(),
   darkTheme: "Dark theme: ",
   socialLinks: [
     {
-      href: "https://www.linkedin.com/in/jayesh-choudhary-72444518b/",
+      href: "https://www.linkedin.com/in/somesh-banerjee/",
       icon: FaLinkedin,
     },
     {
-      href: "https://jayesh2906.github.io",
+      href: "https://somesh-banerjee.github.io",
       icon: BiLinkAlt,
     },
     {
-      href: "https://github.com/jayesh2906",
+      href: "https://github.com/somesh-banerjee",
       icon: FaGithub,
     },
     {
-      href: "https://www.instagram.com/insta__jc/",
-      icon: FaInstagram,
-    },
-    {
-      href: "https://twitter.com/JayeshMERN",
+      href: "https://twitter.com/banerjee_somesh",
       icon: FaTwitterSquare,
     },
   ],
 };
 
 export const skillsData = {
-  info: "Jayesh loves to develop innovative web apps using new technologies, He is keen to gain experience, enhance and upgrade his skills, He enjoys building everything from small sites and landing pages to rich interactive web apps. He loves creating visually stunning, unique and responsive web apps.",
+  info: "Somesh loves to talk on the latest technologies in the field of blockchain, metaverse and Infosec",
   skills: [
     {
-      title: "Frontend Skills",
+      title: "Languages",
       description:
-        "JavaScript, React Js, Redux, React Native, Next Js, Html5, CSS3,Tailwind Css, Material Ui, Bootstrap5, Sass and Styled Component.",
+      "C++, Python, Javascript, and Solidity",
     },
     {
-      title: "Backend Skills",
+      title: "Blockchain Skills",
       description:
-        "Node Js, Express Js, Mongo Db, Next Js, Postman and Jwt-Authentication.",
+        "Ethereum, Polygon, Solidity, Hardhat, Ganache, Web3 Js, Ethers Js, IPFS",
+    },
+    {
+      title: "Fullstack Skills",
+      description:
+      "JavaScript, React Js, Next Js, Node Js, Express Js, Mongo DB, Postman.",
+    },
+    {
+      title: "Other Skills",
+      description:
+      "Git, Terminal, Docker, Burp",
     },
   ],
   skillsIcons: [
+    {
+      title: "C++",
+      href: "",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+      shadowColor: "#61DAFB",
+    },
+    {
+      title: "Python",
+      href: "",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      shadowColor: "#61DAFB",
+    },
+    {
+      title: "Solidity",
+      href: "",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg",
+      shadowColor: "#61DAFB",
+    },
+    {
+      title: "Linux",
+      href: "",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      shadowColor: "#61DAFB",
+    },
+    {
+      title: "Git",
+      href: "https://git-scm.com/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      shadowColor: "#F34F29",
+    },
+    {
+      title: "Docker",
+      href: "",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      shadowColor: "#61DAFB",
+    },
     {
       title: "React Js",
       href: "https://reactjs.org/",
@@ -238,57 +258,9 @@ export const skillsData = {
       shadowColor: "#F0DB4F",
     },
     {
-      title: "Redux",
-      href: "https://redux.js.org",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-      shadowColor: "#9B59B6",
-    },
-    {
-      title: "Css 3",
-      href: "https://www.w3schools.com/css/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      shadowColor: "#3b82f6",
-    },
-    {
       title: "Next Js",
       href: "https://nextjs.org/",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-    },
-    {
-      title: "React Native",
-      href: "https://reactnative.dev/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      shadowColor: "#61DAFB",
-    },
-    {
-      title: "Html 5",
-      href: "https://www.w3.org/html/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      shadowColor: "#f97316",
-    },
-    {
-      title: "Tailwind Css",
-      href: "https://tailwindcss.com/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-      shadowColor: "#38bdf8",
-    },
-    {
-      title: "Material Ui",
-      href: "https://mui.com/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-      shadowColor: "#1C7FB6",
-    },
-    {
-      title: "Bootstrap 5",
-      href: "https://getbootstrap.com",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-      shadowColor: "#7C12F8",
-    },
-    {
-      title: "Sass",
-      href: "https://sass-lang.com",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-      shadowColor: "#CB6699",
     },
     {
       title: "Node Js",
@@ -308,24 +280,6 @@ export const skillsData = {
       shadowColor: "#75BB69",
     },
     {
-      title: "Git",
-      href: "https://git-scm.com/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-      shadowColor: "#F34F29",
-    },
-    {
-      title: "TypeScript",
-      href: "https://www.typescriptlang.org/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      shadowColor: "#007ACC",
-    },
-    {
-      title: "Styled Components",
-      href: "https://styled-components.com/",
-      src: "/assets/styledComponents.png",
-      shadowColor: "#CB6699",
-    },
-    {
       title: "Postman",
       href: "https://www.postman.com/",
       src: "/assets/postman.png",
@@ -336,128 +290,97 @@ export const skillsData = {
 
 export const projectsData = [
   {
-    title: "Laptop with React Js and Tailwind CSS",
-    image: "/assets/laptopdesign.png",
+    title: "Metaverse Market",
+    image: "/assets/metamarket.png",
     description: [
-      "Implemented a laptop with Power on, Sign In with password or finger scanner, Restart, Sleep and Shut down functionality using React and Tailwind CSS.",
+      "Built a NFT market place in which one can list any digital file, and buy from other creators. Deployed on Polygon Mumbai Testnet.",
     ],
     videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:ugcPost:6904281486057373696/",
-    liveDemo: "https://jayesh2906.github.io/laptop-design/",
-    sourceCode: "https://github.com/jayesh2906/laptop-design",
+      "https://youtu.be/4Cdynk6PIhg",
+    liveDemo: "https://metaverse-market.vercel.app/",
+    sourceCode: "https://github.com/somesh-banerjee/Metaverse-Market",
   },
   {
-    title: "House Design with CSS",
-    image: "/assets/housedesign.png",
+    title: "Hospital Records storage using Ethereum Blockchain",
+    image: "/assets/hosrec.png",
     description: [
-      "Designed front-view of my house with pure CSS 3, Html 5 and JavaScript(for handling events).",
-      "User can open and close Gate, Windows and Slide of a House, User can also rotate a house in 360°.",
+      "A dApp for maintaining patient records of all patients by any hospital in a single space created using Blockchain and IPFS.",
     ],
     videoDemo:
-      "https://www.linkedin.com/posts/jayesh-choudhary-72444518b_css-animation-perspective3d-activity-6886298154199773184-C74d",
-    liveDemo: "https://jayesh2906.github.io/My-house.github.io/house.html",
-    sourceCode: "https://github.com/jayesh2906/My-house.github.io",
+      "",
+    liveDemo: "https://hospital-records-blockchain.vercel.app/",
+    sourceCode: "https://github.com/somesh-banerjee/Hospital-Records-Blockchain",
   },
   {
-    title: "IPL-2022 Web Application",
-    image: "/assets/ipl2022.png",
+    title: "CrowdSourcing platform on Ethereum",
+    image: "/assets/crdsrc.png",
     description: [
-      "Implemented a WebApp that provides the live scorecard of IPL-2022 fetched from RESTful cricket API.",
-      "User can create his/her playing 11 team for each franchise, User can also watch the best of IPL highlights.",
-      "Converted to PWA that can be installed and run on mobile as a native app.",
-      "Deployed it to Netlify.",
-      "Technologies used: JavaScript, React, CSS 3, Material Ui, Local Storage.",
+      "This is a CrowdSourcing app built on the ethereum Rinkeby Test network.",
     ],
     videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6913334580070498304/",
-    liveDemo: "https://ipl-2022.netlify.app/",
-    sourceCode: "https://github.com/jayesh2906/IPL-2022-App",
+      "",
+    liveDemo: "https://crwd-src.herokuapp.com/",
+    sourceCode: "https://github.com/somesh-banerjee/Crwd_Src",
   },
   {
-    title: "Full E-Commerce Web Application",
-    image: "/assets/iconstore.png",
+    title: "Map Points",
+    image: "/assets/loader.gif",
     description: [
-      "Implemented a Full E-Commerce WebApp with MERN Stack that can be used by users, sellers, and Admin.",
-      "Uses json web token for security, Authorization.",
-      "Uses Geo-location for auto-filling shipping address of user.",
-      "Uses Twilio message notification to registered mobile number on confirmation of orders.",
-      "Uses Paypal payment gateway integration for demo virtual payment of orders.",
-      "Technologies used: JavaScript, React, Redux Thunk, Node Js, Expess Js, Html, CSS, Bootstrap 5, MongoDB.",
+      "Build a platform using MERN stack where users log in and give reviews of a different location.",
     ],
     videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6842941644195672064/",
-    liveDemo: "",
-    sourceCode: "https://github.com/jayesh2906/Final-Ecommerce-Project",
-  },
-  {
-    title: "Ice Mart Mobile Application",
-    image: "/assets/icemart.png",
-    description: [
-      "Implemented an Ice Mart Mobile App with MERNN Stack that can be used by users, and Admin.",
-      "Uses json web token for security, Authorization.",
-      "Uses Google-maps for location of user.",
-      "Uses Google pay payment gateway integration for demo virtual payment of orders.",
-      "Technologies used: JavaScript, React Native, Redux Toolkit, Node Js, Expess Js, MongoDB.",
-    ],
-    videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6941967333682737152/",
-    liveDemo: "",
-    sourceCode: "https://github.com/jayesh2906/Ice-Mart",
-  },
-  {
-    title: "Real-time Online Chat Application",
-    image: "/assets/chatapp.png",
-    description: [
-      "Implemented a Real-time Online Chat Application with react and stream that can be used for online communication.",
-      "Server deployed to Heroku and Client deployed to Netlify.",
-      "Responsive and converted into PWA(Native app).",
-      "Technologies used: JavaScript, React, Stream, Node Js, Expess Js, Html, CSS.",
-    ],
-    videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6877141876273762304/",
-    liveDemo: "",
-    sourceCode: "https://github.com/jayesh2906/Lets-Chat-app",
-  },
-  {
-    title: "Movie Info Application",
-    image: "/assets/movieapp.png",
-    description: [
-      "Implemented a Movie info app with MERN Stack with third-party APIs for fetching movies record.",
-      "Uses OMDb RESTful web service.",
-      "Technologies used: JavaScript, React, Node Js, Expess Js, Html, CSS, Bootstrap 5.",
-      "Database used: MongoDB.",
-    ],
-    videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6842939354764201984/",
+      "",
     liveDemo: "",
     sourceCode: "",
   },
+  {
+    title: "SOMCOIN",
+    image: "/assets/somcoin.png",
+    description: [
+      "A demo ERC20 token I built for learning purposes.",
+    ],
+    videoDemo:
+      "",
+    liveDemo: "",
+    sourceCode: "https://github.com/somesh-banerjee/Somcoin",
+  },
+  {
+    title: "Vehicle Number Plate Detection",
+    image: "/assets/prj2.png",
+    description: [
+      "Identifying number plate in a image using filters and then detecting characters using OCR.",
+    ],
+    videoDemo:
+      "",
+    liveDemo: "",
+    sourceCode: "https://github.com/somesh-banerjee/Vehicle-Number-Plate-Detection",
+  }
 ];
 
 export const contactDetails = [
   {
     icon: MdCall,
     type: "Mobile",
-    value: "8329812727",
+    value: "9876543210",
     href: "",
   },
   {
     icon: GrMail,
     type: "Email",
-    value: "jayesh.choudhary2906@gmail.com",
-    href: "mailto:jayesh.choudhary2906@gmail.com",
+    value: "somesh0banerjee@gmail.com",
+    href: "mailto:somesh0banerjee@gmail.com",
   },
   {
     icon: MdLocationOn,
     type: "Address",
-    value: "Burhanpur, Madhya Pradesh",
+    value: "Kolkata, West Bengal",
     href: "",
   },
   {
     icon: FaLinkedin,
     type: "Linkedin",
     value: "Contact through Linkedin",
-    href: "https://www.linkedin.com/in/jayesh-choudhary-72444518b/",
+    href: "https://www.linkedin.com/in/somesh-banerjee/",
   },
 ];
 

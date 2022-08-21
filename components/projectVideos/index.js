@@ -66,7 +66,7 @@ const ProjectVideos = () => {
                   <Text>{project.date}</Text>
                 </div>
               </Description>
-              {index === 2 && (
+              {index === 0 && (
                 <NavLink href="/projects">
                   <ViewAll>
                     View all

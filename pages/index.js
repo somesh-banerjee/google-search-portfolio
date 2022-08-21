@@ -23,8 +23,8 @@ const Home = () => {
   return (
     <div>
       <TitleDesc
-        title="Jayesh's Portfolio"
-        desc="This is Google theme portfolio created by Jayesh choudhary using Nextjs Framework."
+        title="Somesh's Portfolio"
+        desc="This is Google theme portfolio using Nextjs Framework."
       />
       <HomeContainer>
         <InfoContainer>
@@ -34,7 +34,7 @@ const Home = () => {
           <MobileProfile>
             <Image
               style={{ zIndex: "-1" }}
-              src="/assets/Profile.png"
+              src="/assets/somesh.jpg"
               alt="Profile"
               width={280}
               height={280}
@@ -42,11 +42,11 @@ const Home = () => {
           </MobileProfile>
           <span>
             <ResumeWrapper
-              href="/assets/Jayesh's Resume.pdf"
+              href="/assets/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {`Jayesh's Resume`}
+              {`Somesh's Resume`}
               <AiOutlineDownload size={19} />
             </ResumeWrapper>
           </span>

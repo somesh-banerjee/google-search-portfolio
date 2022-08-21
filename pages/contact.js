@@ -56,7 +56,7 @@ const Contact = () => {
 
   return (
     <div>
-      <TitleDesc title="Contact Jayesh" desc="Here you can contact Jayesh." />
+      <TitleDesc title="Contact Somesh" desc="Here you can contact Somesh." />
       <ContactContainer>
         <ContactDetails>
           {contactDetails.map(({ icon: Icon, type, value, href }) => {
@@ -75,7 +75,7 @@ const Contact = () => {
             );
           })}
         </ContactDetails>
-        <ContactForm darkMode={darkMode}>
+        {/* <ContactForm darkMode={darkMode}>
           <form ref={form} onSubmit={sendEmail}>
             <NameEmail>
               <div>
@@ -121,7 +121,7 @@ const Contact = () => {
               </ResultWrapper>
             </SubmitWrapper>
           </form>
-        </ContactForm>
+        </ContactForm> */}
       </ContactContainer>
     </div>
   );

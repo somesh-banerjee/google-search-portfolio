@@ -9,12 +9,12 @@ const Map = () => {
   return (
     <div>
       <TitleDesc
-        title="Jayesh's Location"
-        desc="Here mentioned location of Jayesh."
+        title="Somesh's Location"
+        desc="Here mentioned location of Somesh."
       />
       <MapContainer>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d929.32728792598!2d76.22046682915997!3d21.298797248621796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x37ae240af9e11fd!2zMjHCsDE3JzU1LjciTiA3NsKwMTMnMTUuNyJF!5e0!3m2!1sen!2sin!4v1658329089863!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5630603991!2d88.04953282513189!3d22.675752087592443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1660720655486!5m2!1sen!2sin"
           width="100%"
           height="450"
           style={{ border: "0px", ...(darkMode && { filter: "invert(90%)" }) }}

@@ -19,8 +19,8 @@ const Projects = () => {
   return (
     <div>
       <TitleDesc
-        title="Jayesh's Projects"
-        desc="Here mentioned all the personal projects of Jayesh."
+        title="Somesh's Projects"
+        desc="Here mentioned all the personal projects of Somesh."
       />
       <ProjectContainer>
         <ProjectsGrid>
